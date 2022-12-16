@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <!-- box icon link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Form</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg">
+            <div class="image">
+                <img src="./assets/images/left.png" alt="login-img">
+            </div>
+            <div class="form-container">
+                <form action="#" method="post" name="RegForm" id="form">
+                    <h1>Log In</h1>
+                    <p>New User? <span class="acc"><a href="#">Create an account</a></span></p>
+                    <div class="form-control">
+                        <label for="email"> <i class='bx bxl-gmail'></i> Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email address" >
+                        <small class="small"></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="pwd"><i class='bx bx-hide' ></i> Password</label>
+                        <input maxlength="8" type="password" name="pwd" id="password" placeholder="Enter your password" >
+                        <small class="small"></small>
+                    </div>
+
+                    <span class="forgot"><a href="#">Forgot Password?</a> </span>
+                    <input type="submit" value="LOGIN" class="btn">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
